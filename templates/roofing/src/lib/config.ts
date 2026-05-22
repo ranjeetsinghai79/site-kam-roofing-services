@@ -2,162 +2,59 @@ import type { SiteConfig } from "@core/web/types"
 
 export const config: SiteConfig = {
   business: {
-  city: "Tracy",
-  theme: "ember",
-  niche: "roofing",
-  name: "Peak Shield Roofing",
-  tagline: "Storm-Ready. Storm-Proof.",
-  phone: "(555) 234-5678",
-  phoneHref: "tel:+15552345678",
-  email: "hello@peakshieldroofing.com",
-  address: "Tracy, California",
-  serviceAreas: ["Tracy", "Stockton", "Modesto", "Manteca", "Turlock", "Lodi"],
-  license: "CSLB #123987",
-  since: "2005",
-  google_rating: "4.8",
-  review_count: "287",
-  emergency: true,
-  social: {
-    google: "https://google.com",
-    yelp: "https://yelp.com",
-    facebook: "https://facebook.com",
+    name: "KAM Roofing Services",
+    tagline: "Quality Roofing, Built To Last",
+    phone: "(727) 637-6827",
+    phoneHref: "tel:+17276376827",
+    email: "info@kamroofing.com",
+    address: "123 Main St",
+    city: "Pinellas Park",
+    serviceAreas: ["Pinellas"],
+    license: "CGC1525520",
+    since: "2015",
+    google_rating: "4.9",
+    review_count: "200",
+    emergency: true,
+    theme: "ember",
+    niche: "roofing",
   },
-},
 
   services: [
-  {
-    icon: "home",
-    title: "Roof Replacement",
-    desc: "Full tear-off and replacement with 30-year architectural shingles. Manufacturer warranty + our 10-year workmanship guarantee.",
-    urgent: false,
-  },
-  {
-    icon: "cloud-lightning",
-    title: "Storm Damage Repair",
-    desc: "Wind, hail, and rain damage repaired fast. We document everything for your insurance claim.",
-    urgent: true,
-  },
-  {
-    icon: "file-text",
-    title: "Insurance Claims",
-    desc: "We work directly with your insurance adjuster. 95% of our storm repairs are fully covered.",
-    urgent: false,
-  },
-  {
-    icon: "shield",
-    title: "Emergency Tarping",
-    desc: "Same-day emergency tarp service. 24/7 response. Protect your home while we schedule full repair.",
-    urgent: true,
-  },
-  {
-    icon: "droplets",
-    title: "Gutter Installation",
-    desc: "Seamless aluminum gutters with leaf guards. Protect your foundation and landscaping.",
-    urgent: false,
-  },
-  {
-    icon: "search",
-    title: "Free Inspections",
-    desc: "Thorough roof inspection with photo report. Know exactly what you have before buying or selling.",
-    urgent: false,
-  },
-],
+    { icon: "home", title: "Metal Roofing", desc: "Durable, long-lasting metal roofs for superior protection and energy efficiency.", urgent: false },
+    { icon: "home", title: "Shingle Roofing", desc: "Classic and versatile shingle roofing options with expert installation and repair.", urgent: false },
+    { icon: "home", title: "Tile Roofing", desc: "Elegant and resilient tile roofs that enhance curb appeal and withstand harsh weather.", urgent: false },
+    { icon: "home", title: "Low-Slope / Flat Roofing", desc: "Specialized solutions for low-slope and flat roofs, ensuring proper drainage and longevity.", urgent: false },
+    { icon: "home", title: "New Roof Construction", desc: "Expert installation of new roofs for residential and commercial properties.", urgent: false },
+    { icon: "wrench", title: "Roof Repairs", desc: "Prompt and reliable roof repair services to fix leaks, storm damage, and wear.", urgent: true },
+  ],
 
   testimonials: [
-  {
-    name: "Robert M.",
-    location: "Tracy, CA",
-    stars: 5,
-    text: "Hail storm took out half our roof. Peak Shield had emergency tarps up same day, full replacement done in 3 days. Insurance paid everything.",
-  },
-  {
-    name: "Sarah L.",
-    location: "Stockton, CA",
-    stars: 5,
-    text: "They handled the entire insurance claim for us. Didn't pay a dollar out of pocket. New roof looks better than the original.",
-  },
-  {
-    name: "Tom K.",
-    location: "Manteca, CA",
-    stars: 5,
-    text: "Pre-listing inspection found issues the buyer's inspector would've caught. Fixed it fast, sold for full price. Worth every penny.",
-  },
-],
+    { name: "Diniar", location: "Pinellas Park", stars: 5, text: "It was time to replace our roof and Kam roofing was referred to us through a friend. We got a few estimates including one from Leighann Hirsch from Kam Roofing. Leighann was very thorough and answered all our questions. Kam's cost estimate was somewhere in the middle, but we opted to use them because of the strong recommendation. We are glad we did. Our production manager, Brian Schwerdtfeger, communicated with us on key dates and provided updates regularly. He was very responsive. And Hilton supervised the project and reviewed the work during and after the install. We were very happy with the work and will recommend them to anyone needing work done on their roof." }
+  ],
 
   trustBadges: [
-  "Licensed & Insured",
-  "Storm Damage Specialists",
-  "Insurance Claim Experts",
-  "GAF Master Elite Contractor",
-  "Lifetime Warranty Available",
-  "Free Inspections",
-],
+    "GAF Certified Contractor", "Licensed & Insured", "Veteran Owned & Operated", "Discount Programs Available", "5-Star Rated", "Transparent Pricing"
+  ],
 
   stats: [
-  {
-    "value": 4.8,
-    "label": "Google Rating",
-    "suffix": "★",
-    "decimals": 1
-  },
-  {
-    "value": 1435,
-    "label": "Jobs Done",
-    "suffix": "+",
-    "decimals": 0
-  },
-  {
-    "value": 21,
-    "label": "Yrs Experience",
-    "suffix": "+",
-    "decimals": 0
-  }
-],
+    { value: 4.9, label: "Google Rating", suffix: "★", decimals: 1 },
+    { value: 1000, label: "Roofs Installed", suffix: "+", decimals: 0 },
+    { value: 10, label: "Yrs Experience", suffix: "+", decimals: 0 }
+  ],
 
   reasons: [
-  {
-    "icon": "clock",
-    "title": "Fast Response",
-    "desc": "Same-day service when you need it. We don't keep customers waiting."
-  },
-  {
-    "icon": "dollar-sign",
-    "title": "Upfront Pricing",
-    "desc": "Quote before work starts. The number we say is the number you pay."
-  },
-  {
-    "icon": "award",
-    "title": "Certified Professionals",
-    "desc": "Licensed, insured, and trained. Real expertise on every job."
-  },
-  {
-    "icon": "thumbs-up",
-    "title": "Satisfaction Guarantee",
-    "desc": "100% happy or we come back and make it right. No questions asked."
-  },
-  {
-    "icon": "phone",
-    "title": "AI Reception 24/7",
-    "desc": "AI answers every call and text 24/7 — schedules inspections, captures storm-damage leads, and gives estimates before competitors do."
-  },
-  {
-    "icon": "truck",
-    "title": "Fully Equipped",
-    "desc": "Trucks stocked with everything needed. First-visit completion rate above 90%."
-  }
-],
+    { icon: "clock", title: "Fast Response", desc: "We prioritize your roofing needs with quick and efficient service." },
+    { icon: "dollar-sign", title: "Upfront Pricing", desc: "Clear, honest pricing with no hidden fees or surprises." },
+    { icon: "award", title: "Certified Pros", desc: "Our team consists of highly trained and certified roofing specialists." },
+    { icon: "thumbs-up", title: "Satisfaction Guarantee", desc: "We stand behind our work with a commitment to your complete satisfaction." },
+    { icon: "phone", title: "AI Reception 24/7", desc: "Our AI receptionist is available around the clock to assist you." },
+    { icon: "truck", title: "Fully Equipped", desc: "Our crews arrive with all the necessary tools and materials for the job." }
+  ],
 
-  formServiceOptions: [
-  "Roof Replacement",
-  "Storm Damage Repair",
-  "Insurance Claims",
-  "Emergency Tarping",
-  "Gutter Installation",
-  "Free Inspections"
-],
+  formServiceOptions: ["Metal Roofing", "Shingle Roofing", "Tile Roofing", "Low-Slope / Flat Roofing", "New Roof Construction", "Roof Repairs", "Siding Services", "Re-roofing", "Roof Maintenance"]
 }
 
-// Backward compat re-exports
+// Backward-compat re-exports
 export const BUSINESS = config.business
 export const SERVICES = config.services!
 export const TESTIMONIALS = config.testimonials!
